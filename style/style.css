@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightblue;
+
+}
+
+@font-face {
+    font-family: happenFont;
+    src: url(happen.otf);
+  }
+
+
+.boxTemplate{
+    margin-top: 25px;
+    max-width: 768px;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+
+.boxTemplate2{
+    max-width: 717px;
+    position: relative;
+    margin: auto;
+    background-color: white ;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+
+}
+
+.boxTemplate3{
+    max-width: 768px;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+.boxTemplate4{
+    max-width: 717px;
+    position: relative;
+    margin: auto;
+    background-color: white ;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+
+}
+
+
+
+.backgroundPage1 {
+    position: relative;
+}
+
+.backgroundPage2 {
+    position: relative;
+}
+
+.saveDate{
+    max-width: 70%;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: 25%;
+}
+
+.header{
+    max-width: 70%;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: 25%;
+}
